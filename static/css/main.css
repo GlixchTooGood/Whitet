@@ -230,8 +230,8 @@ div {
 }
 
 .styles__input___2XTSp-camelCase {
-  border: none;
-  margin: 5px 2px 5px 11px;
+  border: 3px solid rgba(0, 0, 0, 0.616);
+  border-radius: 6px;
   max-width: 260px;
   width: calc(100% - 35px);
   height: 35px;
@@ -283,7 +283,8 @@ div {
 }
 
 .styles__input___2XTSn-camelCase {
-  border: none;
+  border: solid 2px;
+  border-radius: 5px;
   margin: 5px 2px 5px 11px;
   font-size: 17px;
   text-align: left;
@@ -369,9 +370,8 @@ div {
 .styles__button___2hNZo-camelCase:focus,
 .styles__button___2hNZo-camelCase:hover {
   border-color: #3f3f3f;
-  color: #9f9f9f;
-  background-color: #2b00ff;
-  transform: scale(0.8);
+  color: #ffffff;
+  background-color: #979797;
 }
 
 .styles__buttonFilled___23Dcn-camelCase {
@@ -419,7 +419,7 @@ div {
   flex-direction: column;
   box-sizing: border-box;
   padding-bottom: 7px;
-  box-shadow: inset 0 -7px #6b6b6b;
+  box-shadow: inset 0 -7px rgba(0,0,0,.2);
 }
 
 .styles__topRightRow___dQvxc-camelCase {
@@ -2181,8 +2181,7 @@ body {
 }
 
 .styles__inputContainer___2Fn7J-camelCase {
-  border: 3px solid rgba(0, 0, 0, .17);
-  border-radius: 6px;
+  border: none;
   width: 180px;
   height: 50px;
   margin: 0 auto 20px;
@@ -2640,7 +2639,7 @@ section .air.air4 {
   height: 55px;
   margin: 0;
   padding: auto;
-  box-shadow: 0 6px 8px #6b6b6b;
+  box-shadow: inset 0px -7px 0px 0px rgba(0, 0, 0, .2);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -3089,7 +3088,7 @@ section .air.air4 {
   text-align: center;
   align-items: center;
   position: absolute;
-  background-color: var(--text-color);
+  background-color: #d1d1d1;
   border-radius: 25px;
   z-index: 5;
   height: 40%;
@@ -3098,8 +3097,8 @@ section .air.air4 {
   top: 30%;
   left: 30%;
   transform: translate(-50%, -50%);
-  animation: shake 3s infinite;
-  box-shadow: 10px 5px 5px #6b6b6b;
+  animation: shake 1s infinite;
+  box-shadow: inset -10px -7px 10px 5px #6b6b6b;
 }
 
 .headerSide {

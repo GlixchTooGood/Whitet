@@ -30,14 +30,14 @@
   --secondary-color: #f3dcb4;
   --text-color: #000000;
 }
-
+/* Dark Theme */
 .dark {
   --primary-color: #383838;
   --secondary-color: #303030;
   --text-color: #ffff;
 }
 
-/* WG Theme */
+/* Space Theme */
 .space {
   --primary-color: #9c02e3;
   --secondary-color: #8711be;

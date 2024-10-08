@@ -1,8 +1,9 @@
-const express = require("express");
+const express = require('express');
 const app = express();
 const apiRouter = require("./router/api");
 const htmlRouter = require("./router/html");
 const path = require('path');
+require('dotenv').config({ path: __dirname+'.env' });
 app.use(apiRouter);
 app.use(htmlRouter);
 app.engine('html', require('ejs').renderFile);
